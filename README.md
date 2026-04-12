@@ -51,6 +51,7 @@ End-to-end deep learning solution to predict bank customer churn. Given customer
 - Bonus: ANN adapted for **regression** (salary prediction) in `salaryregression.ipynb`
 
 ---
+## 🏗️ Project Architecture & Workflow
 ```
 Raw CSV Data
      │
