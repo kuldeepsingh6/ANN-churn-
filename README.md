@@ -1,11 +1,11 @@
-# 🧠 Customer Churn Prediction — ANN
+# Customer Churn Prediction — ANN
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15.0-orange?logo=tensorflow)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Demo-red?logo=streamlit)
 ![License](https://img.shields.io/badge/License-GPL--3.0-green)
 
-**[🚀 Live Demo](https://q99dnzatazcgpzbdavtuma.streamlit.app/)**
+**[Live Demo](https://q99dnzatazcgpzbdavtuma.streamlit.app/)**
 
 ---
 
@@ -51,7 +51,7 @@ End-to-end deep learning solution to predict bank customer churn. Given customer
 - Bonus: ANN adapted for **regression** (salary prediction) in `salaryregression.ipynb`
 
 ---
-## 🏗️ Project Architecture & Workflow
+## Project Architecture & Workflow
 ```
 Raw CSV Data
      │
