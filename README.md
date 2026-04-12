@@ -51,6 +51,43 @@ End-to-end deep learning solution to predict bank customer churn. Given customer
 - Bonus: ANN adapted for **regression** (salary prediction) in `salaryregression.ipynb`
 
 ---
+```
+Raw CSV Data
+     │
+     ▼
+Data Preprocessing
+  ├── Drop irrelevant columns (RowNumber, CustomerId, Surname)
+  ├── Label Encode → Gender (Male=1, Female=0)
+  ├── One-Hot Encode → Geography (France, Germany, Spain)
+  └── Standard Scale → All numerical features
+     │
+     ▼
+ANN Model (TensorFlow / Keras)
+  ├── Input Layer  → 11 features
+  ├── Hidden Layer 1 → 64 neurons, ReLU activation
+  ├── Hidden Layer 2 → 32 neurons, ReLU activation
+  └── Output Layer → 1 neuron, Sigmoid activation (binary probability)
+     │
+     ▼
+Training
+  ├── Loss: Binary Cross-Entropy
+  ├── Optimizer: Adam
+  ├── Metric: Accuracy
+  └── Callbacks: EarlyStopping, TensorBoard logging
+     │
+     ▼
+Saved Artifacts
+  ├── model.h5
+  ├── scaler.pkl
+  ├── label_encoder_gender.pkl
+  └── onehot_encoder_geo.pkl
+     │
+     ▼
+Streamlit Web App (app.py)
+  └── Real-time prediction with user inputs
+```
+
+---
 
 ## Repo Structure
 
